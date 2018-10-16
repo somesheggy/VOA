@@ -151,6 +151,55 @@
         <version>3.5.4</version>
     </dependency>
 
+    <dependency>
+        <groupId>com.smartbear.readyapi.testserver.cucumber</groupId>
+        <artifactId>testserver-cucumber</artifactId>
+        <version>1.0.0</version>
+        <type>pom</type>
+    </dependency>
+
+    <dependency>
+        <groupId>com.smartbear.readyapi.testserver.cucumber</groupId>
+        <artifactId>testserver-cucumber-runner</artifactId>
+        <version>1.0.0</version>
+    </dependency>
+
+    <dependency>
+        <groupId>com.smartbear.readyapi</groupId>
+        <artifactId>testserver-maven-plugin</artifactId>
+        <version>1.0.0</version>
+    </dependency>
+
+    <dependency>
+        <groupId>com.smartbear.readyapi.testserver.cucumber</groupId>
+        <artifactId>testserver-cucumber-stepdefs</artifactId>
+        <version>1.0.0</version>
+    </dependency>
+
+    <dependency>
+        <groupId>com.smartbear.readyapi</groupId>
+        <artifactId>ready-api-testserver-client</artifactId>
+        <version>1.2.1</version>
+    </dependency>
+
+    <dependency>
+        <groupId>com.smartbear.readyapi</groupId>
+        <artifactId>ready-api-testserver-client</artifactId>
+        <version>1.2.1</version>
+    </dependency>
+
+    <dependency>
+        <groupId>com.smartbear.readyapi.testserver.cucumber</groupId>
+        <artifactId>testserver-cucumber-core</artifactId>
+        <version>1.0.0</version>
+    </dependency>
+
+    <dependency>
+        <groupId>com.smartbear.readyapi.testserver.cucumber</groupId>
+        <artifactId>testserver-cucumber-samples</artifactId>
+        <version>1.0.0</version>
+    </dependency>
+
 </dependencies>
 
 </project>
