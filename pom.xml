@@ -79,8 +79,6 @@
         <version>3.14.0</version>
     </dependency>
 
-
-
     <dependency>
         <groupId>io.cucumber</groupId>
         <artifactId>cucumber-junit</artifactId>
@@ -123,8 +121,8 @@
         <groupId>io.cucumber</groupId>
         <artifactId>cucumber-picocontainer</artifactId>
         <version>4.0.1</version>
+        <scope>test</scope>
     </dependency>
-
 
     <dependency>
         <groupId>io.rest-assured</groupId>
