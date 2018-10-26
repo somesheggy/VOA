@@ -1,4 +1,4 @@
-package com.voa;
+package com.cca.voa;
 
 import org.junit.BeforeClass;
 import org.openqa.selenium.WebDriver;
@@ -12,7 +12,7 @@ public class baseTest {
     public static void beforeClass() {
 
         driver = new FirefoxDriver();
-        driver.get("https://www.gov.uk/correct-your-business-rates");
+        driver.get("https://www.qa.tax.service.gov.uk/business-rates-dashboard/home");
         driver.manage().window().maximize();
     }
 
